@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head><title>2048</title>
+	<link rel="stylesheet" type="css/text" href="2048.css">
+	<script  type="text/javascript" src="2048.js" language="javascript"></script>
+	<script  type="text/javascript" src="toWord.js" language="javascript"></script>
+</head>
+<body onload="init()">
+
+	<div id="main">
+		<header>2048</header>
+		<div id="one">
+		<div id="oneone" class='zero'></div>
+		<div id="onetwo" class='zero'></div>
+		<div id="onethree" class='zero'></div>
+		<div id="onefour" class='zero'></div>
+		</div>
+		<div id="two">
+		<div id="twoone" class='zero'></div>
+		<div id="twotwo" class='zero'></div>
+		<div id="twothree" class='zero'></div>
+		<div id="twofour" class='zero'></div>
+		</div>
+		<div id="three">
+		<div id="threeone" class='zero'></div>
+		<div id="threetwo" class='zero'></div>
+		<div id="threethree" class='zero'></div>
+		<div id="threefour" class='zero'></div>
+		</div>
+		<div id="four">
+		<div id="fourone" class='zero'></div>
+		<div id="fourtwo" class="zero"></div>
+		<div id="fourthree" class='zero'></div>
+		<div id="fourfour" class='zero'></div>
+		</div>
+	</div>
+	<div id="last">
+	<div id="start"><a href="#">PLAY</a></div>
+	<div id="score"><div>SCORE</div><div id="scoren">0</div></div>
+	</div>
+	<div id="undob"><a href="#">
+		UNDO</a></div>
+	<script>
+	function init(){
+		game();
+	}
+	</script>
+</body>
+</html>
